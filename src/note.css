@@ -1,0 +1,53 @@
+.noteHolder{
+    float: left;
+    height: 100%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    padding: 30px;
+}
+
+.note{
+    -webkit-box-shadow: 4px 4px 10px 0px rgba(99, 99, 99, 0.75);
+  -moz-box-shadow:    4px 4px 10px 0px rgba(99, 99, 99, 0.75);
+  box-shadow:         2px 2px 10px 0px rgb(148, 148, 148);
+    /* border: 2px solid black; */
+    position: relative;
+    /* float: left; */
+    padding-left: 15px;
+    padding-top: 20px;
+    padding-bottom: 35px;
+    padding-right: 45px;
+    margin-left: 65px;
+    margin-right: 20px;
+    border-radius: 12px;
+    font-weight: bold;
+    height: 90px;
+    width: 200px;
+    background: #fff;
+    scroll-behavior: smooth;
+    scrollbar-color: transparent;
+}
+
+.text{
+    padding-right: 45px;
+    font-weight: normal;
+}
+
+.btn{
+    /* height: 20px; */
+    /* width: 20px; */
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    float: right;
+}
+
+.btn-d{
+    /* position: relative; */
+    /* padding: 20px; */
+    z-index: 10;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    /* transform: translateY(15px); */
+  }
